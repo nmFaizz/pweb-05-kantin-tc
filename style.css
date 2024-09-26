@@ -25,6 +25,15 @@ a:hover {
     text-decoration: underline;
 }
 
+aside h1 {
+    border-left: #8DEFCB 5px solid;
+    padding-left: 1rem;
+}
+
+aside ul li:hover {
+    background-color: lightgray;
+}
+
 #hero {
     border-radius: 12px;
     height: 380px;
@@ -57,6 +66,14 @@ button:hover {
     background-color: #8DEFCB;
 }
 
+footer div .social-media i {
+    border: 1px solid black; 
+    border-radius: 5px;
+    font-size: 1.8rem;
+    padding: 5px;
+    margin-right: 0.6rem;
+}
+
 .page-max-width {
     max-width: 1000px;
     margin-inline: auto;
@@ -70,6 +87,7 @@ li {
 aside ul {
     margin-top: 1rem;
 }
+
 .menu-item {
     display: flex;
     gap: 1rem;
@@ -87,8 +105,17 @@ aside ul {
 }
 
 .menu-item figure {
-    width: 150px;
+    width: 210px;
     height: 150px;
+}
+
+.menu-item .price {
+    font-size: 1.4rem;
+    color: red;
+}
+
+.menu-item .menu-content {
+    flex: 1;
 }
 
 .menu-item figure img {
@@ -106,6 +133,7 @@ footer {
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid black;
 }
 
 iframe {
