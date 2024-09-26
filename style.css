@@ -21,6 +21,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 #hero {
     border-radius: 12px;
     height: 380px;
@@ -46,7 +50,11 @@ button {
     border-radius: 50px;
     padding: 0.2rem 1.5rem;
     font-size: 1.3rem;
-    background-color: #ACFFFC;
+    background-color: var(--primary-color);
+}
+
+button:hover {
+    background-color: #8DEFCB;
 }
 
 .page-max-width {
@@ -96,6 +104,8 @@ aside ul {
 
 footer {
     padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 iframe {
